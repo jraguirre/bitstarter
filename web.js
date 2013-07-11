@@ -1,7 +1,7 @@
 var express = require('express');
 var fs = require('fs');
 var infile = "index.html";
-var out = fs.readFileSync(infile; 'ascii');
+var out = fs.readFileSync(infile, 'ascii');
 
 var app = express.createServer(express.logger());
 
